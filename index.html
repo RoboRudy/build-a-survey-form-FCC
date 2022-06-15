@@ -1,51 +1,47 @@
 <!DOCTYPE html>
-
-<html lang="en">
 <head>
+  <link rel="stylesheet" href="./styleSheet.css" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <h1 id="title">Survey Form</h1>
-    <p id="description"> This is a description of the purpose of the survey form.</p>
-    <form id="survey-form">
-      <label for="fname" id="name-label">First Name</lable><br>
-      <input type="text" id="name" placeholder="First" required><br>
-      <label for="lname" >Last Name</label><br>
-      <input type="text" placeholder="Last"><br>
-      <label for="email" id="email-label">E-mail Address</label><br>
-      <input type="email" id="email" placeholder="E-mail Address" required><br>
-      <label for="age" id="number-label" >Age</label><br> 
-      <input type="number" id="number" min="0" max="115" placeholder="00"><br>
-      <label for="dropdown">Choose a Life</label><br>
-      <select id="dropdown" name="lives">
-        <option value="easy">Easy; Non-Fulfilling</option>
-        <option value="medium">Testing, but fullfilling</option>
-      <option value="hard">Difficult, but the life of your dreams</option>
-      </select><br>
-      <label for="radio">Advantage</label><br>
-      <input type="radio" name="advantage" value="family">
-      <label for="family">Family</label>
-      <input type="radio" name="advantage" value="talent"> 
-      <label for="talent">Talent</label><br>
-      <label for="disadvantage">Disadvantage</label><br>
-      <input type="checkbox" 
-      value="low-energy">
-      <label for="low-energy">Low Energy</label><br>
-      <input type="checkbox" 
-      value="ADHD">
-      <label for="ADHD">ADHD</label><br>
-      <input type="checkbox" 
-      value="procrastination">
-      <label for="procrastination">Procrastination</label><br>
-      <label for="explain">Explain your selections</label><br>
-      <textarea name="explain">Enter text here</textarea><br>
-      <input id="submit" type="submit">
-
-    </form>
+  <title>Goats Survey</title>
 </head>
-<body>
-    
-</body>
+
+  <h1 id="title">Do You Like Goats?</h1>
+  <p id="description">They are super underated and need some credit where it is due. This survey is going to pull some of that weight.</p>
+  <form id="survey-form">
+  <label id="name-label">Name</label>
+  <input  id="name" type="text" placeholder="Name" required>
+  <br>
+  <label id="email-label">Email</label>
+  <input id="email" type="email" placeholder="Email" required>
+  <br>
+  <label id="number-label">How many goats in the picture?</label>
+  <input id="number" type="number" min="0" max="10" placeholder="C'mon" required>
+  <br>
+  <label>Pick what color goat would eat the most hay!</label>
+  <select id="dropdown">
+    <option>Brown</option>
+    <option>White</option>
+    <option>Orange</option>
+    <option>Blue/Grey</option>
+  </select>
+  <br>
+  <h3>Which goat is the smartest?</h3>
+  <input type="radio" value="winifred" name="smart_goat"> <label for="winefred">Winifred</label>
+  <br>
+  <input type="radio" value="douglass" name="smart_goat"> <label for="douglass">Douglass</label><br>
+  
+  <h4>What would look best on goats?</h4>
+  <input type="checkbox" value="bowtie" name="clothes"><label for="bowtie">Bowtie</label> 
+  
+  <input type="checkbox" name="clothes" value="top_hat"><label for="top_hat">Top Hat</label>
+  
+  <input type="checkbox" name="clothes" value="more_goats"><label for="more_goats">More Goats</label>
+  <br>
+  
+  <h4>Tell us more about how much you love goats!</h4> <textarea name="extra" rows="10" cols="20"> I really love goats because...</textarea>
+  <br>
+  <input id="submit" type="submit" value="submit">
+</form>
 </html>
