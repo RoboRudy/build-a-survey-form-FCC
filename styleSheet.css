@@ -10,7 +10,6 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    overflow: hidden;
     background-size: cover; /*makes sure that the image covers the size of the container */
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
@@ -41,7 +40,9 @@ h1 {
     display: block;
     margin: auto;
     height: fit-content;
-    width: ;
+    width: 100%;
+    padding: 10%;
+    border: 1px dotted white;
 }
 
 /* 1. i would like the h1 main element to stand alone vert and hori centered with the small caption underneath. Almost akin to the port page for FCC
@@ -51,11 +52,11 @@ h1 {
 2a. Blow up the text. (DONE)
 
 
-3. Add images for the "how many goats in the picture?" question.
+3. Add images for the "how many goats in the picture?" question. (DONE)
 
-4. Picture of Winifred and Douglass styled and centered underneath
+4. Picture of Winifred and Douglass styled and centered underneath (DONE)
 
-5. checkbox option will be paired with small emoji's at the end of the label.
+5. checkbox option will be paired with small emoji's at the end of the label. (DONE)
 
 6. spruce up the text box to make it more visually pleasing. Round out the edges, soften the typewritter text for placeholder.
 
