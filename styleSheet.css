@@ -5,9 +5,50 @@
     margin: 0;
 }
 
+html {
+    background-image: url(./assets/happy_goat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover; /*makes sure that the image covers the size of the container */
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    font-size: 50px;
+}
+
+.bold {
+
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: underline;
+
+}
+
+.text-box-style {
+    width: 80vw;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px 0 10px 5px;
+}
+
+.goatsImg {
+    display: block;
+    margin: auto;
+    height: fit-content;
+    width: ;
+}
+
 /* 1. i would like the h1 main element to stand alone vert and hori centered with the small caption underneath. Almost akin to the port page for FCC
 
-2. Round out the boxes for names. Blow up the text.
+2. Round out the boxes for names. (DONE)
+
+2a. Blow up the text. (DONE)
 
 
 3. Add images for the "how many goats in the picture?" question.
@@ -16,11 +57,11 @@
 
 5. checkbox option will be paired with small emoji's at the end of the label.
 
-6. spruce up the text box to make it more visually pleasin. Round out the edges, soften the typewritter text for placeholder.
+6. spruce up the text box to make it more visually pleasing. Round out the edges, soften the typewritter text for placeholder.
 
 7. Beautify the submit button.
 
-8. background image of a field. 
+8. background image of a field. (DONE: happy goat in field instead)
 
 9. Form background color to be an opaque mustard yellow-ish color. */
 
