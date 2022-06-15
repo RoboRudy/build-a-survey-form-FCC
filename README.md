@@ -1,40 +1,23 @@
-# build-a-survey-form-FCC
-Build a basic survey form that hits all user stories in readme.txt.
+Objective: Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
-User Stories: 
+User Stories:
 
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+You should have a page title in an h1 element with an id of title
+You should have a short explanation in a p element with an id of description
+You should have a form element with an id of survey-form
+Inside the form element, you are required to enter your name in an input field that has an id of name and a type of text
+Inside the form element, you are required to enter your email in an input field that has an id of email
+If you enter an email that is not formatted correctly, you will see an HTML5 validation error
+Inside the form, you can enter a number in an input field that has an id of number
+If you enter non-numbers in the number input, you will see an HTML5 validation error
+If you enter numbers outside the range of the number input, which are defined by the min and max attributes, you will see an HTML5 validation error
+For the name, email, and number input fields, you can see corresponding label elements in the form, that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label"
+For the name, email, and number input fields, you can see placeholder text that gives a description or instructions for each field
+Inside the form element, you should have a select dropdown element with an id of dropdown and at least two options to choose from
+Inside the form element, you can select an option from a group of at least two radio buttons that are grouped using the name attribute
+Inside the form element, you can select several fields from a series of checkboxes, each of which must have a value attribute
+Inside the form element, you are presented with a textarea for additional comments
+Inside the form element, you are presented with a button with id of submit to submit all the inputs
+Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
 
-User Story #1: I can see a title with id="title" in H1 sized text.
-
-User Story #2: I can see a short explanation with id="description" in P sized text.
-
-User Story #3: I can see a form with id="survey-form".
-
-User Story #4: Inside the form element, I am required to enter my name in a field with id="name".
-
-User Story #5: Inside the form element, I am required to enter an email in a field with id="email".
-
-User Story #6: If I enter an email that is not formatted correctly, I will see an HTML5 validation error.
-
-User Story #7: Inside the form, I can enter a number in a field with id="number".
-
-User Story #8: If I enter non-numbers in the number input, I will see an HTML5 validation error.
-
-User Story #9: If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error.
-
-User Story #10: For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label".
-
-User Story #11: For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.
-
-User Story #12: Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown".
-
-User Story #13: Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.
-
-User Story #14: Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.
-
-User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.
-
-User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
-
-
+Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
