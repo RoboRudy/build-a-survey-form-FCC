@@ -1,2 +1,26 @@
 /* CSS Stylesheet */
+* {
+    border: 1px solid black ;
+    top: 0;
+    margin: 0;
+}
+
+/* 1. i would like the h1 main element to stand alone vert and hori centered with the small caption underneath. Almost akin to the port page for FCC
+
+2. Round out the boxes for names. Blow up the text.
+
+
+3. Add images for the "how many goats in the picture?" question.
+
+4. Picture of Winifred and Douglass styled and centered underneath
+
+5. checkbox option will be paired with small emoji's at the end of the label.
+
+6. spruce up the text box to make it more visually pleasin. Round out the edges, soften the typewritter text for placeholder.
+
+7. Beautify the submit button.
+
+8. background image of a field. 
+
+9. Form background color to be an opaque mustard yellow-ish color. */
 
