@@ -1,25 +1,80 @@
 /* CSS Stylesheet */
-* {
+ /* * {
     border: 1px solid black ;
     top: 0;
     margin: 0;
+    
+    } 
+/*
+this is considered the global reset: 
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing:border-box; 
 }
+*/
 
 html {
-    background-image: url(./assets/happy_goat.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover; /*makes sure that the image covers the size of the container */
+   
+    height: 100%;
+    width: 100%;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     background-color: rgba(243, 247, 14, 0.562);
+    padding: 0;
+    margin: 0;
 }
 
-h1 {
+body {
+    margin: 0; /*this makes sure that none of the default margin creates space between elements. */
+}
+
+.heroImage {
+    background-image: url(./assets/happy_goat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*makes sure that the image covers the size of the container */
+    height: 500px;
+    position: relative;
+    margin: 0;
+    top: 0
+}
+
+.heroText {
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+#description {
+    top: ;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form {
+    margin: auto;
+    align-content: center;
+    width: 95%;
+    height: 95%;
+    margin: 20px;
+    background-color: rgba(240, 248, 255, 0.479);
+    border-radius: 10px;
+    padding: 3px;
+    bottom: 0;
+}
+
+#title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 20px 20px 0px 20px;
-    font-size: 50px;
+    font-size: 60px;
+    text-align: center;
 }
 
 .bold {
@@ -44,7 +99,8 @@ h1 {
     height: fit-content;
     width: 100%;
     padding: 10px;
-    border: 1px dotted white;
+  /*  border: 1px dotted white; */
+  border-radius: 10px;
 }
 
 .goat-text-area {
@@ -58,17 +114,30 @@ h1 {
     font-size: 16px;
 }
 
+#smartGoatContainer {
+    display: flow-root;
+    
+    grid-auto-rows: 100px;
+    
+}
+
+.baby {
+    background-color: rgb(255, 251, 0);
+    text-align: center;
+    font-size: larger;
+
+
+}
+
 .chooseWhich {
     width: 50%;
-    display: block;
+    align-self: stretch;
+    
     
 
 }
 
-#smartGoatContainer {
-    display: flex;
-    flex-flow: 
-}
+
 
 #submit {
     background-color: aquamarine;
@@ -78,8 +147,9 @@ h1 {
     font-size: 20px;
     margin: auto;
     width: 30%;
-    padding: 10 px20px;
+    padding: 10px;
     border-radius: 5px;
+    margin-bottom: 15px;
 
 }
 
@@ -104,7 +174,13 @@ h1 {
 
 9. Form background color to be an opaque mustard yellow-ish color. (DONE)
 
-10. CENTER ELEMENTS/ work on layout of form
+10. CENTER ELEMENTS/ work on layout of form (DONE)
+11. adopt hero layout for background image of page /////////Do you like Goats?///// (DONE)
+                                                    //////// Image in back ///////
+                                                    FORM START ---------
+                                                    Name 
+                                                    Email...
+
 */
 
 

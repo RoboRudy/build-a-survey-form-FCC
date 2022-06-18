@@ -6,8 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Goat Survey</title>
 </head>
-  <h1 id="title">Do You Like Goats?</h1>
-  <p id="description">They are super underated and need credit where it is due. This survey is going to pull some of that weight.</p>
+<body>
+    <div class="heroImage"><!----this is the picture --->
+      <div class="heroText">
+        <!----this is the title wtih headings ----> 
+        <h1 id="title">Do You Like Goats?</h1>
+        <p id="description">We want to hear about your love of goats</p>
+        
+      </div>
+    </div>
+ 
   <form id="survey-form">
   <label id="name-label">Name</label>
   <input  id="name" class="text-box-style" type="text" placeholder="John" required>
@@ -29,11 +37,15 @@
   <br>
   <h3>Which goat is the <span class="bold">smartest?</span></h3>
   <div id="smartGoatContainer">
-    <input type="radio" value="winifred" name="smart_goat"> 
-    <label for="winefred">Winifred</label>
-    <img src="./assets/winifred.webp" class="goatsImg chooseWhich" alt="picture of Winifred wearing a cute sweater">
-    <input type="radio" value="douglass" name="smart_goat"> 
-    <label for="douglass">Douglass</label><br>
+    <div class="baby">
+      <input type="radio" value="winifred" name="smart_goat" > 
+      <label for="winifred">Winifred</label>
+    </div>
+      <img src="./assets/winifred.webp" class="goatsImg chooseWhich" alt="picture of Winifred wearing a cute sweater">
+    <div class="baby">
+      <input type="radio" value="douglass" name="smart_goat"> 
+      <label for="douglass">Douglass</label><br>
+    </div>
     <img src="./assets/douglass.webp" class="goatsImg chooseWhich" alt="Douglass staring into your soul near a cliff overlooking an ocean">
   </div>
   <h4>What would look best on goats?</h4>
@@ -49,4 +61,5 @@
   <br>
     <input id="submit" type="submit" value="Submit &#128016">
 </form>
+</body>
 </html>
